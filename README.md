@@ -1,6 +1,6 @@
 **Blog da SOL**
 
-Um site simples para criação e exibição de posts, simulando um blog ou rede social como Facebook ou LinkedIn.
+Um site simples para criação e exibição de posts, simulando um blog ou rede social.
 
 # Descrição
 
