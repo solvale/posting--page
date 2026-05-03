@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog da SOL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section_1>
+            <h1>Blog da SOL <img src="sol.png" alt="Sol" style="width: 1em; height: 1em; vertical-align: middle;"></h1>
+            <h2>Criar Post</h2>
+
+            <form id="post-form">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+                
+                <label for="conteudo">Conteúdo:</label>
+                <textarea id="conteudo" name="conteudo" rows="5" required></textarea>
+                
+                <button type="submit">Postar</button>
+            </form>
+        </section_1>
+        
+        <section_2>
+            <h2 id="post-enviado">Post Enviado</h2>
+            <h3 id="renderizador-titulo"></h3>
+            <p id="renderizador-conteudo"></p>
+        </section_2>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
